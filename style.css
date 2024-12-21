@@ -24,17 +24,23 @@ body {
 }
 
 img {
-    
     border-radius: 10px;
 }
 
-.ing-prep {
-    
+.bla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-right: 30px;
 }
 
 ul {
     text-align: justify;
     list-style: inside;
+}
+
+.lista1 {
+    grid-row: 2;
 }
 
 
