@@ -7,8 +7,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #e4dbdb;
-    background: url('imagens/light-wood-floor-texture-generate-ai-photo.jpg') no-repeat;
+    background: url('imagens/papel-parede.jpg');
     background-size: cover;
 }
 
@@ -89,4 +88,9 @@ ol li {
     justify-self: center;
     border-radius: 10px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.425);
+}
+
+
+@media screen and (max-width:500px) {
+    
 }
