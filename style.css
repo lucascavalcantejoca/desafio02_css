@@ -91,6 +91,28 @@ ol li {
 }
 
 
-@media screen and (max-width:500px) {
-    
+@media only screen and (max-width:500px) {
+    .cont-geral {
+        display: inline;
+    } 
+
+    .ingre {
+        margin: auto;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        width: 80vw;
+    } 
+
+    .modo-prep {
+        
+        height: 32vh;
+        margin-right: 45px;
+    }
+
+    ol {
+        columns: 1;
+    }
+
+    ol li {
+    }
 }
