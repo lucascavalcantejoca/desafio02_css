@@ -96,6 +96,13 @@ ol li {
         display: inline;
     } 
 
+    .imagem {
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+    }
+
+
     .ingre {
         margin: auto;
         
