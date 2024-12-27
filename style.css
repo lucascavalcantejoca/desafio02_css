@@ -98,15 +98,15 @@ ol li {
 
     .ingre {
         margin: auto;
-        margin-left: 20px;
+        
         margin-bottom: 30px;
         width: 80vw;
     } 
 
     .modo-prep {
-        
+        margin: auto;
         height: 32vh;
-        margin-right: 45px;
+       
     }
 
     ol {
