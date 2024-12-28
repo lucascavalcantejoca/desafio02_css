@@ -91,7 +91,7 @@ ol li {
 }
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:1070px) {
     .cont-geral {
         display: inline;
     } 
@@ -112,7 +112,7 @@ ol li {
 
     .modo-prep {
         margin: auto;
-        height: 32vh;
+        height: 26vh;
        
     }
 
@@ -122,4 +122,35 @@ ol li {
 
     ol li {
     }
+}
+
+@media only screen and (max-width:500px) {
+    .cont-geral {
+        display: inline;
+    } 
+
+    .imagem {
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .ingre {
+        margin: auto;
+        
+        margin-bottom: 30px;
+        width: 80vw;
+    } 
+
+    .modo-prep {
+        margin: auto;
+        height: 32vh;
+       
+    }
+
+    ol {
+        columns: 1;
+    }
+
 }
