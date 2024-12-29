@@ -103,7 +103,6 @@ ol li {
         text-align: center;
     }
 
-
     .ingre {
         margin: auto;
         margin-bottom: 30px;
@@ -113,14 +112,13 @@ ol li {
     .modo-prep {
         margin: auto;
         height: auto;
+        text-align: justify;
     }
 
     ol {
         columns: 1;
     }
 
-    ol li {
-    }
 }
 
 @media only screen and (max-width:500px) {
@@ -143,8 +141,10 @@ ol li {
 
     .modo-prep {
         margin: auto;
+        margin-bottom: 30px;
         height: auto;
-       
+        text-align: justify;
+        line-height: 24px;
     }
 
     ol {
