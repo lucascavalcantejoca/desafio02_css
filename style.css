@@ -105,14 +105,17 @@ ol li {
 
     .ingre {
         margin: auto;
+        margin-top: 15px;
         margin-bottom: 30px;
         width: 80%;
     } 
 
     .modo-prep {
         margin: auto;
+        margin-bottom: 30px;
         height: auto;
         text-align: justify;
+        line-height: 24px;
     }
 
     ol {
