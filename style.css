@@ -142,12 +142,12 @@ ol li {
     .ingre {
         margin: auto;
         margin-bottom: 30px;
-        width: 80vw;
+        width: 80%;
     } 
 
     .modo-prep {
         margin: auto;
-        height: 32vh;
+        height: auto;
        
     }
 
