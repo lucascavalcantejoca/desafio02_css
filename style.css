@@ -80,12 +80,14 @@ ol li {
 }
 
 .modo-prep {
+    display: flex;
+    flex-direction: column;
     margin: 20px 0px 0px 20px;
     background-color: #97422F;
     padding: 20px;
     color: azure;
-    width: 80vw;
-    height: 25vh;
+    width: 80%;
+    
     justify-self: center;
     border-radius: 10px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.425);
@@ -138,9 +140,7 @@ ol li {
     }
 
     .ingre {
-        
         margin: auto;
-        
         margin-bottom: 30px;
         width: 80vw;
     } 
