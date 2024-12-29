@@ -20,7 +20,7 @@ h1 {
 
 .cont-geral {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 55px;
 }
 
@@ -43,11 +43,12 @@ img {
 }
 
 .ingre {
+    display: flex;
+    flex-direction: column; /* Garante que o conteúdo seja empilhado */
     background-color: #97422F;
     color: azure;
     padding: 15px;
     border-radius: 10px;
-    height: 23vh;
     line-height: 1.5em;
     margin-right: 20em;
     margin-top: 10px;
@@ -137,6 +138,7 @@ ol li {
     }
 
     .ingre {
+        
         margin: auto;
         
         margin-bottom: 30px;
